@@ -51,4 +51,4 @@ classes. Bounding boxes are provided for all classes.
 
 ## Checkpoints
 
-*   [COCO pre-trained checkpoint]() used in the colab (image + box input).
+*   [COCO pre-trained checkpoint](http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz) used in the colab (image + box input).
