@@ -40,14 +40,14 @@ classes. Bounding boxes are provided for all classes.
 
 | Train/Eval | mAP | Config |
 |:-----------| --:| --------:| 
-| VOC / Non-VOC | 35.5|[Link]() |
-| Non-VOC / VOC | 39.1|[Link]() |
+| VOC / Non-VOC | 35.5|[Link](https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_voc_only_tpu-128.config) |
+| Non-VOC / VOC | 39.1|[Link](https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_non_voc_only_tpu-128.config) |
 
 ### Mask-RCNN
 
 | Train/Eval      | mAP       | Config                                                       |
 |:---------------:| :--------:|:------------------------------------------------------------:|
-| VOC / Non-VOC | 34.4|[Link]() |
+| VOC / Non-VOC | 34.4|[Link](https://github.com/tensorflow/models/blob/master/official/vision/beta/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_voc_r101_hg52.yaml) |
 
 ## Checkpoints
 
