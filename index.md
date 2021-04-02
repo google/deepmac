@@ -52,3 +52,16 @@ classes. Bounding boxes are provided for all classes.
 ## Checkpoints
 
 *   [COCO pre-trained checkpoint](http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz) used in the colab (image + box input).
+
+
+## Citation
+```
+@misc{birodkar2021surprising,
+      title={The surprising impact of mask-head architecture on novel class segmentation}, 
+      author={Vighnesh Birodkar and Zhichao Lu and Siyang Li and Vivek Rathod and Jonathan Huang},
+      year={2021},
+      eprint={2104.00613},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
