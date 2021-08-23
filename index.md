@@ -69,14 +69,16 @@ classes. Bounding boxes are provided for all classes.
     <td> VOC&#8594;Non-VOC </td>
     <td> 38.7 </td>
     <td>
-      Coming soon
+     <a href="https://github.com/tensorflow/models/blob/master/official/vision/beta/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_voc_spinenet143_hg52.yaml">
+       Link </a>
     </td>
   </tr>
   <tr>
     <td> Non-VOC&#8594;VOC </td>
     <td> 41.0 </td>
     <td>
-      Coming soon
+     <a href="https://github.com/tensorflow/models/blob/master/official/vision/beta/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_nonvoc_spinenet143_hg52.yaml">
+       Link </a>
     </td>
   </tr>
 </table>
