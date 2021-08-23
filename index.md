@@ -53,7 +53,7 @@ classes. Bounding boxes are provided for all classes.
     <td> 35.5 </td>
     <td>
       <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_voc_only_tpu-128.config"> 
-        Config</a>
+        Link</a>
     </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ classes. Bounding boxes are provided for all classes.
     <td> 39.1 </td>
     <td>
       <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_non_voc_only_tpu-128.config"> 
-        Config</a>
+        Link</a>
     </td>
   </tr>
   <tr>
