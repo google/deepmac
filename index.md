@@ -21,11 +21,11 @@ mask-heads above CenterNet.
 
 ## Code
 
-*   [**DeepMAC code**](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/deepmac.md) -
+*   [**Deep-MAC code**](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/deepmac.md) -
     Used for most experiments with the
     [CenterNet](https://arxiv.org/abs/1904.07850) architecture.
-*   [**Mask-RCNN code**](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/deepmac_maskrcnn) -
-    Used for Mask-RCNN based ablations.
+*   [**Deep-MARC code**](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/deepmac_maskrcnn) -
+    Used for our Mask-RCNN based model.
 
 ## Demos
 *   [**Colab**](https://github.com/tensorflow/models/tree/master/research/object_detection/colab_tutorials/deepmac_colab.ipynb)
@@ -35,27 +35,56 @@ mask-heads above CenterNet.
 
 ## Main Results
 
-In this table (X/Y) indicates that we train on masks from 'X' classes and
+In this table (X&#8594;Y) indicates that we train on masks from 'X' classes and
 evaluate with masks from 'Y' classes. These experiments are done on the COCO
 dataset. The VOC split contains 20 classes and the non-VOC split contains 60
 classes. Bounding boxes are provided for all classes.
 
-### DeepMAC
+<table>
+  <tr>
+    <td> <b>Train &#8594; Eval </b></td>
+    <td> <b>Model </b></td>
+    <td> <b>Mask mAP </b></td>
+    <td> <b>Config </b></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Deep-MAC (CetnerNet based)</td>
+    <td> VOC&#8594;Non-VOC </td>
+    <td> 35.5 </td>
+    <td>
+      <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_voc_only_tpu-128.config"> 
+        Config</a>
+    </td>
+  </tr>
+  <tr>
+    <td> Non-VOC&#8594;VOC </td>
+    <td> 39.1 </td>
+    <td>
+      <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_non_voc_only_tpu-128.config"> 
+        Config</a>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Deep-MARC (Mask R-CNN based)</td>
+    <td> VOC&#8594;Non-VOC </td>
+    <td> 38.7 </td>
+    <td>
+      Coming soon
+    </td>
+  </tr>
+  <tr>
+    <td> Non-VOC&#8594;VOC </td>
+    <td> 41.0 </td>
+    <td>
+      Coming soon
+    </td>
+  </tr>
+</table>
 
-| Train/Eval | mAP | Config |
-|:-----------| --:| --------:| 
-| VOC / Non-VOC | 35.5|[Link](https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_voc_only_tpu-128.config) |
-| Non-VOC / VOC | 39.1|[Link](https://github.com/tensorflow/models/blob/master/research/object_detection/configs/tf2/center_net_deepmac_1024x1024_non_voc_only_tpu-128.config) |
-
-### Mask-RCNN
-
-| Train/Eval      | mAP       | Config                                                       |
-|:---------------:| :--------:|:------------------------------------------------------------:|
-| VOC / Non-VOC | 34.4|[Link](https://github.com/tensorflow/models/blob/master/official/vision/beta/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_voc_r101_hg52.yaml) |
 
 ## Checkpoints
 
-*   [COCO pre-trained checkpoint](http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz) used in the colab (image + box input).
+*   [COCO pre-trained checkpoint (Deep-MAC)](http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz) used in the colab (image + box input).
 
 
 ## Citation
