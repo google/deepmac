@@ -12,13 +12,11 @@ important role in generalizing to masks of unseen classes. The figure below
 shows improved mask predictions for unseen classes as we use better mask-head
 architectures.
 
-<video controls autoplay>
+<video controls autoplay class="center-image-narrow">
   <source src="{{site.url}}/{{site.baseurl}}/assets/deepmac_video.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
-
-![My Image]({{site.url}}/{{site.baseurl}}/assets/mask_improvement.png){: .center-image-narrow}
 
 Just by using better mask-head architectures (no extra losses or modules) we
 achieve state-of-the-art performance in the partially supervised instance
