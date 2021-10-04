@@ -12,7 +12,7 @@ important role in generalizing to masks of unseen classes. The figure below
 shows improved mask predictions for unseen classes as we use better mask-head
 architectures.
 
-<video controls autoplay class="center-image-narrow">
+<video controls autoplay class="center-image-wide">
   <source src="{{site.url}}/{{site.baseurl}}/assets/deepmac_video.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
   Your browser does not support the video tag.
