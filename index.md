@@ -27,7 +27,7 @@ mask-heads above CenterNet.
 *   [**Deep-MAC code**](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/deepmac.md) -
     Used for most experiments with the
     [CenterNet](https://arxiv.org/abs/1904.07850) architecture.
-*   [**Deep-MARC code**](https://github.com/tensorflow/models/tree/master/official/vision/beta/projects/deepmac_maskrcnn) -
+*   [**Deep-MARC code**](https://github.com/tensorflow/models/tree/master/official/projects/deepmac_maskrcnn) -
     Used for our Mask-RCNN based model.
 
 ## Demos
@@ -72,7 +72,7 @@ classes. Bounding boxes are provided for all classes.
     <td> VOC&#8594;Non-VOC </td>
     <td> 38.7 </td>
     <td>
-     <a href="https://github.com/tensorflow/models/blob/master/official/vision/beta/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_voc_spinenet143_hg52.yaml">
+     <a href="https://github.com/tensorflow/models/blob/master/official/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_voc_spinenet143_hg52.yaml">
        Link </a>
     </td>
   </tr>
@@ -80,7 +80,7 @@ classes. Bounding boxes are provided for all classes.
     <td> Non-VOC&#8594;VOC </td>
     <td> 41.0 </td>
     <td>
-     <a href="https://github.com/tensorflow/models/blob/master/official/vision/beta/projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_nonvoc_spinenet143_hg52.yaml">
+     <a href="https://github.com/tensorflow/models/blob/master/official//projects/deepmac_maskrcnn/configs/experiments/deep_mask_head_rcnn_nonvoc_spinenet143_hg52.yaml">
        Link </a>
     </td>
   </tr>
