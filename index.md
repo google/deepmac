@@ -89,7 +89,12 @@ classes. Bounding boxes are provided for all classes.
 
 ## Checkpoints
 
-*   [COCO pre-trained checkpoint (Deep-MAC)](http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz) used in the colab (image + box input).
+Both these models take Image + boxes as input and produce per-box instance
+masks as output.
+
+*   [CenterNet Hourglass backbone](http://download.tensorflow.org/models/object_detection/tf2/20210329/deepmac_1024x1024_coco17.tar.gz)
+*   [Mask-RCNN SpineNet backbone](https://storage.googleapis.com/tf_model_garden/vision/deepmac_maskrcnn/deepmarc_spinenet.zip)
+
 
 
 ## Citation
